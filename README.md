@@ -1,8 +1,8 @@
 # Portfolio Movadee.com
 
-To visit live site got to: [http://movadee.com]{:target="_blank"}
+To visit live site got to: [http://movadee.com]
 
-This Angular project was generated with [Angular CLI](https://github.com/angular/angular-cli){:target="_blank"} version 1.6.5.
+This Angular project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
 ## App Hosting
 
@@ -11,16 +11,16 @@ This project is hosted for free on the GitHub Pages. If I have any app changes I
 - to create CNAME file with custom url reference: `echo "movadee.com" > dist/CNAME`
 - to publish site on github pages: `ngh`
 
-I used [angular-cli-ghpages](https://www.npmjs.com/package/angular-cli-ghpages){:target="_blank"} to publish Angular2+ app to gh-pages
+I used [angular-cli-ghpages](https://www.npmjs.com/package/angular-cli-ghpages) to publish Angular2+ app to gh-pages
 
 I used the folowing sources for reference:
-- https://pages.github.com/{:target="_blank"}
-- https://developer.telerik.com/featured/quick-angular-2-hosting-angular-cli-github-pages/{:target="_blank"}
-- https://hackernoon.com/how-to-set-up-godaddy-domain-with-github-pages-a9300366c7b{:target="_blank"}
+- https://pages.github.com/
+- https://developer.telerik.com/featured/quick-angular-2-hosting-angular-cli-github-pages/
+- https://hackernoon.com/how-to-set-up-godaddy-domain-with-github-pages-a9300366c7b
 
 ## App Specifications Document
 
-I was inspired by Mr. Joel Spolski and his amazing book Joel on Software to write this [Project Specs](https://docs.google.com/document/d/1eTpdydbdG0UwS-yy14mLAFd8VkwStVFrw6QwhR4-yTI/edit?usp=sharings){:target="_blank"}.
+I was inspired by Mr. Joel Spolski and his amazing book Joel on Software to write this [Project Specs](https://docs.google.com/document/d/1eTpdydbdG0UwS-yy14mLAFd8VkwStVFrw6QwhR4-yTI/edit?usp=sharings).
 
 ## Development server
 
