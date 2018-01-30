@@ -1,6 +1,6 @@
 # Portfolio Movadee.com
 
-To visit live site got to: `http://movadee.com`
+To visit live site got to: [http://movadee.com]
 
 This Angular project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
@@ -11,7 +11,7 @@ This project is hosted for free on the GitHub Pages. If I have any app changes I
 - to create CNAME file with custom url reference: `echo "movadee.com" > dist/CNAME`
 - to publish site on github pages: `ngh`
 
-I used angular-cli-ghpages [https://www.npmjs.com/package/angular-cli-ghpages] to publish Angular2+ app to gh-pages
+I used [angular-cli-ghpages](https://www.npmjs.com/package/angular-cli-ghpages) to publish Angular2+ app to gh-pages
 
 I used the folowing sources for reference:
 - https://pages.github.com/
@@ -20,9 +20,7 @@ I used the folowing sources for reference:
 
 ## App Specifications Document
 
-To see this project specs go to: `https://docs.google.com/document/d/1eTpdydbdG0UwS-yy14mLAFd8VkwStVFrw6QwhR4-yTI/edit?usp=sharing`
-
-I was inspired by Mr. Joel Spolski and his amazing book Joel on Software to start writing project specs for every project I am working on.
+I was inspired by Mr. Joel Spolski and his amazing book Joel on Software to write this [Project Specs](https://docs.google.com/document/d/1eTpdydbdG0UwS-yy14mLAFd8VkwStVFrw6QwhR4-yTI/edit?usp=sharings).
 
 ## Development server
 
