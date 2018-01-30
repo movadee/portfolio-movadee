@@ -4,6 +4,8 @@ To visit live site got to: [http://movadee.com]
 
 This Angular project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.5.
 
+This project is using [Materializecss](http://next.materializecss.com/) library for styling.
+
 ## App Hosting
 
 This project is hosted for free on the GitHub Pages. If I have any app changes I execute following commands: 
