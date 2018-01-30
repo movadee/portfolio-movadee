@@ -18,6 +18,12 @@ I used the folowing sources for reference:
 - https://developer.telerik.com/featured/quick-angular-2-hosting-angular-cli-github-pages/
 - https://hackernoon.com/how-to-set-up-godaddy-domain-with-github-pages-a9300366c7b
 
+## App Specifications Document
+
+To see this project specs go to: `https://docs.google.com/document/d/1eTpdydbdG0UwS-yy14mLAFd8VkwStVFrw6QwhR4-yTI/edit?usp=sharing`
+
+I was inspired by Mr. Joel Spolski and his amazing book Joel on Software to start writing project specs for every project I am working on.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
