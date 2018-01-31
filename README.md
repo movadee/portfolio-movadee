@@ -20,6 +20,12 @@ I used the folowing sources for reference:
 - https://developer.telerik.com/featured/quick-angular-2-hosting-angular-cli-github-pages/
 - https://hackernoon.com/how-to-set-up-godaddy-domain-with-github-pages-a9300366c7b
 
+## Sending Conatct Us email
+
+Since my portfolio is hosted on GitHub it is required to be only static content without backend. I wanted to have a Contact Us form
+so I can receive emails from people. I found a great solution that is not require backend setup. Now I am sending notification email 
+from a Contact Us Form using Google Apps Mail. [Follow this link](https://github.com/dwyl/html-form-send-email-via-google-script-without-server) if you'd like to know details
+
 ## App Specifications Document
 
 I was inspired by Mr. Joel Spolski and his amazing book Joel on Software to write this [Project Specs](https://docs.google.com/document/d/1eTpdydbdG0UwS-yy14mLAFd8VkwStVFrw6QwhR4-yTI/edit?usp=sharings).
