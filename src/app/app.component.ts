@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
 
 import '../../node_modules/materialize-css/dist/js/materialize.min.js';
 declare var M:any;
@@ -9,9 +10,18 @@ declare var M:any;
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
+
+  constructor(private router: Router) {
+    this.router.events.subscribe(event => {
+      if (event instanceof NavigationEnd) {
+        (<any>window).ga('set', 'page', event.urlAfterRedirects);
+        (<any>window).ga('send', 'pageview');
+      }
+    });
+  }
+ 
   ngOnInit() {
     new M.Modal(document.querySelector('.modal'));
   }
 
-  
 }
