@@ -1,32 +1,74 @@
-<div id="index-banner" class="parallax-container">
-  <nav role="navigation">
-    <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">Movadee</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Resume</a></li>
-        <li><a href="#">Contact Me</a></li>
-      </ul>
+<!-- Navbar -->
+<nav class="white" role="navigation">
+  <div class="nav-wrapper container">
+    <a id="logo-container" href="#" class="brand-logo">movadee</a>
+    <ul class="right hide-on-med-and-down">
+      <li><a href="#">RESUME</a></li>
+      <li><a href="#contactMeModal" class="modal-trigger">CONTACT ME</a></li>
+    </ul>
 
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Resume</a></li>
-        <li><a href="#">Contact Me</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-
-  <div class="section no-pad-bot">
-    <div class="container">
-      <br><br>
-      <h1 class="header center teal-text text-lighten-2">Parallax Template</h1>
-      <div class="row center">
-        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
-      </div>
-      <div class="row center">
-        <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-      </div>
-      <br><br>
-    </div>
+    <ul id="nav-mobile" class="sidenav">
+      <li><a href="#">RESUME</a></li>
+      <li><a href="#contactMeModal" class="modal-trigger">CONTACT ME</a></li>
+    </ul>
+    <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
   </div>
-  <div class="parallax"><img src="../assets/images/background.svg" alt="Unsplashed background img 1"></div>
+</nav>
+
+<!-- About Section -->
+<div class="section no-pad-bot">
+  <div class="container">
+    <br><br>
+    <h1 class="header center">I design & build software</h1>
+    <div class="row center">
+      <h5 class="header col s12 light">more info about me</h5>
+    </div>
+    <div class="row center">      
+      <a href="https://github.com/movadee" target="_blank" id="download-button" class="btn-large blue-grey">
+        <i class="material-icons right white-text">launch</i>My GitHub
+      </a>
+    </div>
+    <br><br>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="page-footer blue-grey lighten-3">
+  <div class="footer-copyright">
+    <div class="container">Made by Alla aka Movadee</div>
+  </div>
+</footer>
+
+<!-- Contact Me Modal -->
+<div id="contactMeModal" class="modal">
+  <div class="modal-content">
+    <form>
+      <!-- name -->
+      <div class="row">
+        <div class="input-field">
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">Name</label>
+        </div>
+      </div>
+
+      <!-- email -->
+      <div class="row">
+        <div class="input-field">
+          <input id="first_name" type="text" class="validate">
+          <label for="first_name">Email</label>
+        </div>
+      </div>
+
+      <!-- message -->
+      <div class="row">
+        <div class="input-field">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Message</label>
+        </div>
+      </div>
+    </form>
+
+    <!-- button send -->
+    <a class="waves-effect waves-light btn center">Send</a>
+  </div>
 </div>

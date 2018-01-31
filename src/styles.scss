@@ -1,1 +1,34 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700');
+
+
+* {
+    font-family:  'Comfortaa', sans-serif;
+}
+
+nav ul li a {
+    color: #92989b;
+    font-weight: bold;
+}
+
+nav ul a:hover {
+    background-color: transparent;
+}
+
+nav {
+    -webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+    :hover {
+        color: #6ab344;
+    }
+}
+
+nav .brand-logo {
+    color: #6ab344;
+    font-weight: bold;
+}
+
+.page-footer {
+    padding: 0;
+}

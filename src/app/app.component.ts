@@ -10,6 +10,6 @@ declare var M:any;
 })
 export class AppComponent implements OnInit {
   ngOnInit() {
-    new M.Parallax(document.querySelector('.parallax'));
+    new M.Modal(document.querySelector('.modal'));
   }
 }
