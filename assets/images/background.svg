@@ -1,0 +1,21 @@
+
+<svg width="1702px" height="814px" viewBox="0 0 1702 814" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1702" height="814"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Portfolio-Landing-Page">
+            <g id="Header">
+                <g id="Background">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#5CA1F1" xlink:href="#path-1"></use>
+                    <polygon id="Rectangle-Copy" fill-opacity="0.441236413" fill="#5594DD" opacity="0.600000024" mask="url(#mask-2)" points="-232.965062 0 982.415989 0 427.720871 881.372378 -269.618248 840.156736"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
