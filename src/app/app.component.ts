@@ -22,6 +22,16 @@ export class AppComponent implements OnInit {
  
   ngOnInit() {
     new M.Modal(document.querySelector('.modal'));
+    new M.Sidenav(document.querySelector('.sidenav'));
+  }
+
+  sendEvent() {
+    (<any>window).ga('send', 'event', {
+      eventCategory: 'eventCategory',
+      eventLabel: 'eventLabel',
+      eventAction: 'eventAction',
+      eventValue: 10
+    });
   }
 
 }
