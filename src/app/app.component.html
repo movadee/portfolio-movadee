@@ -7,14 +7,14 @@
 
     <!-- desktop navbar -->
     <ul class="right hide-on-med-and-down">
-      <li><a routerLink="/resume" href="#" (click)="sendEvent()">RESUME</a></li>
+      <li><a routerLink="/resume" href="#" (click)="sendEvent()">CV</a></li>
       <li><a href="#contactMeModal" class="modal-trigger">CONTACT ME</a></li>
     </ul>
 
     <!-- mobile sidenav -->
     <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     <ul id="slide-out" class="sidenav">
-      <li><a routerLink="/resume" href="#" (click)="sendEvent()">RESUME</a></li>
+      <li><a routerLink="/resume" href="#" (click)="sendEvent()">CV</a></li>
       <li><a href="#contactMeModal" class="modal-trigger">CONTACT ME</a></li>
     </ul>
 
@@ -22,14 +22,17 @@
 </nav>
 
 <!-- Pages -->
-<router-outlet></router-outlet>
+<div class="section no-pad-bot">
+  <router-outlet></router-outlet>
+</div>
+
 
 <!-- Footer -->
-<!-- <footer class="page-footer blue-grey lighten-3">
+<footer class="page-footer blue-grey lighten-3">
   <div class="footer-copyright">
-    <div class="container">Made with love by Alla aka Movadee</div>
+    <div class="container">Made with &#10084; by Alla aka Movadee</div>
   </div>
-</footer> -->
+</footer>
 
 <!-- Contact Me Modal -->
 <div id="contactMeModal" class="modal">

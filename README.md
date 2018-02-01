@@ -20,7 +20,7 @@ I used the folowing sources for reference:
 - https://developer.telerik.com/featured/quick-angular-2-hosting-angular-cli-github-pages/
 - https://hackernoon.com/how-to-set-up-godaddy-domain-with-github-pages-a9300366c7b
 
-## Sending Conatct Us email
+## Sending Contact Us Email
 
 Since my portfolio is hosted on GitHub it is required to be only static content without backend. I wanted to have a Contact Us form
 so I can receive emails from people. I found a great solution that is not require backend setup. Now I am sending notification email 
