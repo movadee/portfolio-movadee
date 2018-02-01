@@ -12,7 +12,4 @@ export class ResumeComponent implements OnInit {
   ngOnInit() {
   }
 
-  openProjectPage() {
-    console.log("project page opened");
-  }
 }
