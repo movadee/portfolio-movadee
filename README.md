@@ -46,3 +46,4 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 - Utilize lazy loading
 - Utilize Localization
 - Comment all code
+- Add portfolio to Materializecss showcase
