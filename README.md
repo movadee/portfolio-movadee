@@ -37,3 +37,12 @@ I was inspired by Mr. Joel Spolski and his amazing book Joel on Software to writ
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## ToDo List
+
+- Load projects data from json file (local)
+- Update movadee project description with more details
+- Create CV
+- Utilize lazy loading
+- Utilize Localization
+- Comment all code
