@@ -10,6 +10,8 @@ declare var M:any;
 })
 export class AppComponent implements OnInit {
 
+  sidenav;
+
   constructor(private router: Router) {
     this.router.events.subscribe(event => {
       if (event instanceof NavigationEnd) {
@@ -21,7 +23,11 @@ export class AppComponent implements OnInit {
  
   ngOnInit() {
     new M.Modal(document.querySelector('.modal'));
-    new M.Sidenav(document.querySelector('.sidenav'));
+    this.sidenav = new M.Sidenav(document.querySelector('.sidenav'));
+  }
+
+  closeSidenav() {
+    this.sidenav.close();
   }
 
   sendEvent() {
