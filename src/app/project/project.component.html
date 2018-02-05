@@ -1,12 +1,23 @@
-<div *ngIf="project$ | async as project" class="container">
-  <blockquote>
-    <div class="row">
-      <div class="col s6 bold">Framework</div><div class="col s6">{{project.framework}}</div>
-      <div class="col s6 bold">Styling Library</div><div class="col s6">{{project.stylingLibrary}}</div>
-      <div class="col s6 bold">Hosting</div><div class="col s6">{{project.hosting}}</div>
-      <div class="col s6 bold">Backend</div><div class="col s6">{{project.backend}}</div>
-    </div>
-  </blockquote>
-  <p>{{project.details}}</p>
-</div>
+<div class="container">
 
+  <!-- Go Back Button  -->
+  <a routerLink="/home" class="waves-effect waves-light btn-flat"><i class="material-icons left">arrow_back</i>Go Back</a>
+
+  <!-- Project Details -->
+  <div *ngIf="project$ | async as project">
+      <h3>{{project.name}}</h3>
+      <a [href]="project.url">{{project.url}}</a>
+    <blockquote>
+      <div class="row">
+        <div class="col s6 m2 bold">Framework</div><div class="col s6 m10">{{project.framework}}</div>
+        <div class="col s6 m2 bold">Styling Library</div><div class="col s6 m10">{{project.stylingLibrary}}</div>
+        <div class="col s6 m2 bold">Hosting</div><div class="col s6 m10">{{project.hosting}}</div>
+        <div class="col s6 m2 bold">Backend</div><div class="col s6 m10">{{project.backend}}</div>
+        <div class="col s6 m2 bold">Site Analytics</div><div class="col s6 m10">{{project.siteAnalytics}}</div>
+        <div class="col s6 m2 bold">Email Service</div><div class="col s6 m10">{{project.emailService}}</div>
+      </div>
+    </blockquote>
+    <p>{{project.description}}</p>
+  </div>
+
+</div>

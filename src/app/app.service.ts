@@ -20,9 +20,11 @@ export class Project {
 }
 
 const PROJECTS = [
-  new Project( 1, 'modavee', 'http://movadee.com/home', 'Angular5', 'MaterializeCss', 'GitHub Pages', 
+  new Project( 1, 'movadee', 'http://movadee.com/home', 'Angular5', 'MaterializeCss', 'GitHub Pages', 
               'None', 'Google Analytic', 'Google Apps Mail Scripting', 'Personal portfolio responsive website',
-              '')
+              'This is my personal online portfolio project. I created it using Angular5 and other cool stuff. I feel like it is more fun to learn new' + 
+              'programming concepts or just experiment on some "real world" project, therefore I created this portfolio. I also want to describe my' +
+              'thought process ofother projects I was or will be working on.')
 ];
 
 @Injectable()
