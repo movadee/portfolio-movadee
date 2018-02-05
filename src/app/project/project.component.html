@@ -5,8 +5,9 @@
 
   <!-- Project Details -->
   <div *ngIf="project$ | async as project">
-      <h3>{{project.name}}</h3>
-      <a [href]="project.url">{{project.url}}</a>
+      <h3 class="header blue-grey-text darken-1">{{project.name}}</h3>
+      <a [href]="project.url" target="_blank">{{project.url}}</a><br>
+      <a [href]="project.url" target="_blank">{{project.github}}</a>
     <blockquote>
       <div class="row">
         <div class="col s6 m2 bold">Framework</div><div class="col s6 m10">{{project.framework}}</div>
