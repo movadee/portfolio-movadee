@@ -1,8 +1,8 @@
 <!-- About Section -->
 <div class="container padding-between-sections">
   <div class="row center">
-    <h1 class="header">I design & build software</h1>
-    <h5 class="header col s12 light">I also love to foster kittens, skydive and cheesecakes</h5>
+    <h1 class="header blue-grey-text darken-1">I design & build software</h1>
+    <h5 class="header col s12 light grey-text">I also love to foster kittens, skydive and cheesecakes</h5>
   </div>
   <div class="row center">      
     <a href="https://github.com/movadee" target="_blank" id="github-button" class="btn-large blue-grey">
@@ -14,14 +14,16 @@
 <!-- Projects Section -->
 <div class="grey lighten-5 padding-between-sections">
   <div class="container">
-    <h2 class="header center">Projects</h2>
+
+    <!-- header -->
+    <h2 class="header center primary-color">Projects</h2>
 
     <!-- project cards -->
-    <div class="row">
+    <div *ngIf="projects$ | async as projects" class="row">
       <div *ngFor="let project of projects" class="col s12 m6">
-        <div class="card small hoverable">
-          <div class="card-content">
-            <span class="card-title"><a target="_blank" [href]="project.url">{{project.name}} <i class="material-icons">launch</i></a></span>
+        <div class="card small hoverable blue-grey darken-1">
+          <div class="card-content white-text">
+            <span class="card-title"><a class="white-text" target="_blank" [href]="project.url">{{project.name}} <i class="material-icons">launch</i></a></span>
             <blockquote>
               <div class="row">
                 <div class="col s6 bold">Framework</div><div class="col s6">{{project.framework}}</div>
@@ -33,7 +35,7 @@
             <p>{{project.summary}}</p>
           </div>
           <div class="card-action">
-            <a href="#">Read More</a>
+            <a [routerLink]="['/project', project.id]" href="#">Read More</a>
           </div>
         </div>
       </div>

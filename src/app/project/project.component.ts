@@ -1,17 +1,18 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { Observable } from 'rxjs/Observable';
+import 'rxjs/add/operator/switchMap';
 import { Project, AppService } from '../app.service';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
+  selector: 'app-project',
+  templateUrl: './project.component.html',
   providers: [AppService],
   styles: []
 })
-export class HomeComponent implements OnInit {
+export class ProjectComponent implements OnInit {
 
-  projects$: Observable<Project[]>;
+  project$: Observable<Project>;
 
   constructor(
     private route: ActivatedRoute,
@@ -20,13 +21,9 @@ export class HomeComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.projects$ = this.route.paramMap
+    this.project$ = this.route.paramMap
       .switchMap((params: ParamMap) =>
-        this.service.getProjects());
-  }
-
-  openProjectPage() {
-    console.log("project page opened");
+        this.service.getProject(params.get('id')));
   }
 
 }

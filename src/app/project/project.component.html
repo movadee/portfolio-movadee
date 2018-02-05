@@ -1,0 +1,12 @@
+<div *ngIf="project$ | async as project" class="container">
+  <blockquote>
+    <div class="row">
+      <div class="col s6 bold">Framework</div><div class="col s6">{{project.framework}}</div>
+      <div class="col s6 bold">Styling Library</div><div class="col s6">{{project.stylingLibrary}}</div>
+      <div class="col s6 bold">Hosting</div><div class="col s6">{{project.hosting}}</div>
+      <div class="col s6 bold">Backend</div><div class="col s6">{{project.backend}}</div>
+    </div>
+  </blockquote>
+  <p>{{project.details}}</p>
+</div>
+
